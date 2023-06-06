@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.drinks {
+  display: flex;
+  flex-wrap: wrap;
+}
+.drink_item {
+  width: 24%;
+}
+.drink_item img {
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+
+
+[id^=radio-] {
+ /* display: none;*/
+}
+
+[id^=radio-] + label {
+  display: inline-block;
+  vertical-align: middle;  
+  color: #555;
+  cursor: pointer;
+}
+
+[id^=radio-]:checked + label {
+  border: 4px solid red;
+  cursor: text;
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>  
+<p>Напитки</p>
+<div class="drinks">
+
+  <div class="drink_item">
+    <p>Эспрессо</p>
+  <input type="radio" id="radio-1" name="typeDrink" value="espresso">
+<label for="radio-1">
+  <img src="img/espresso.jpg">    
+</label> 
+</div>
+
+<div class="drink_item">
+  <p>Американо</p>
+  <input type="radio" id="radio-2" name="typeDrink" value="americano">
+<label for="radio-2">
+  <img src="img/amerikano.jpg">   
+</label>    
+</div>
+
+<div class="drink_item">
+  <p>Латте</p>
+  <input type="radio" id="radio-3" name="typeDrink" value="latte">
+  <label for="radio-3">
+    <img src="img/kap.png">   
+  </label> 
+</div>
+<div class="drink_item">
+  <p>Какао</p>
+  <img>    
+</div>
+</div>
+ 
+<div id="drink_options">  
+</div>
+
+
+<p>Блинчики</p>
+<div>
+  
+  
+</div>
+
+<div>
+  <input type="checkbox" id="sugar" name="sugar" checked>
+  <label for="sugar">Добавить сметану</label>
+</div> 
+
+Ваш заказ: 
+  
+<p id="title"></p>
+<p id="amount"></p>
+
+<button id="go">Заказать</button>
+
+<script src="js.js"></script>
+ 
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
